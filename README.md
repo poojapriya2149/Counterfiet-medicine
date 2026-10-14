@@ -94,8 +94,3 @@ The system may show different statuses depending on the checks performed:
 
 A repeated scan can happen during normal testing, so it does not automatically mean the package is counterfeit.
 
-## Limitations
-
-This is an academic prototype. It checks locally stored records and uses AI to classify the package image, but it cannot independently prove that a medicine is genuine. QR codes can be copied, and the database is not connected to manufacturers or an official medicine-tracking service. The model predicts only among the 50 medicine classes it was trained on, and its prediction can be wrong.
-
-The system should therefore be treated as a way to flag possible inconsistencies for review, not as a replacement for official medicine authentication or quality testing.
